@@ -8,7 +8,7 @@ body {
 
 /* Ảnh lớp */
 .banner {
-    background: url('images/anhlop.jpg') no-repeat center center/cover;
+    background: url('images/Trangchu/anhlop.jpg') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -69,6 +69,8 @@ nav ul li a {
     align-items: center;
     margin-bottom: 30px;
     gap: 20px;
+	padding: 50px 10%;
+
 }
 
 .item.reverse {
@@ -76,16 +78,36 @@ nav ul li a {
 }
 
 .item .image img {
-    width: 60%;
-    max-width: 400px;
-    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+.footer-left img {
+	width: 60px;
+	height: 60px; 
+	border-radius: 50%; 
 }
 
 /* Cuối trang  */
 footer {
-    background: #333;
+    background: #222;
     color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+	display: flex;
+	align-items: center;
+	gap: 15px; 
+}
+.footer-left img {
+	width: 60px;
+	height: 60px; 
+	border-radius: 50%;
+}
+.footer-left-content h4 {
+	margin-bottom: 10px;
+	font-size: 16px; 
 }
